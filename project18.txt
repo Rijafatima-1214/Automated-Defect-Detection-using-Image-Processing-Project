@@ -1,0 +1,32 @@
+Image Analysis for Automated Defect Detection 
+Project Domain / Category 
+Image Processing 
+Abstract / Introduction 
+In sectors like oil and gas, manufacturing, and civil engineering, ensuring the structural integrity of 
+industrial pipelines and building surfaces is critical for safety, compliance, and cost reduction. 
+Manual inspection methods are labor-intensive, inconsistent, and not scalable for large 
+infrastructures. This project proposes an automated defect detection system using established 
+image processing techniques to assist in identifying visible defects on surfaces such as pipelines (e.g., 
+cracks, dents) or buildings under construction (e.g., wall cracks, surface degradation, concrete 
+spalling). 
+The system will utilize classical image processing operations such as grayscale conversion, noise 
+filtering, edge detection, thresholding, and contour analysis. Optionally, students may integrate a 
+lightweight pertained models (e.g., YOLOV4-Tiny) for improved accuracy. A basic user login system, 
+image upload interface, and defect visualization panel will be provided for ease of use. The system 
+will support local image storage and simple reporting.  
+Note for Students: Cloud resources (e.g., Google Colab) or personal computing devices with 
+sufficient processing power.  
+Functional Requirements: 
+1. FR1: User authentication system with login/logout functionality. 
+2. FR2: Image input system for capturing product images. 
+3. FR3: Image preprocessing (resizing, noise removal, brightness adjustment). 
+4. FR4: Integration of pretrained object detection model (e.g., YOLOv4-Tiny) to detect visible 
+defects such as cracks, leaks, or surface irregularities. 
+5. FR5: Display of processed images with defects visually highlighted (bounding boxes or labels). 
+6. FR6: Display of detected defects with highlighted areas.  
+7. FR7: Report generation with defect count, defect type, and marked images.  
+Tools:  
+• Programming Language: Python 
+• Frameworks/Libraries: OpenCV, NumPy, SciPy 
+• Development Environment: Jupyter Notebook, PyCharm, VS Code 
+• Additional Tools: Simple local file storage for image saving
